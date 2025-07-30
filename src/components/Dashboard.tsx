@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { modules } from '../data/modules';
 import ModuleCard from './ModuleCard';
 import ModuleModal from './ModuleModal';

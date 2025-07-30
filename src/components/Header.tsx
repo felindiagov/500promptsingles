@@ -1,4 +1,4 @@
-import React from 'react';
+import { } from 'react';
 import { LogOut, BookOpen } from 'lucide-react';
 
 interface HeaderProps {

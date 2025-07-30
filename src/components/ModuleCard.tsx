@@ -1,4 +1,4 @@
-import React from 'react';
+import { } from 'react';
 import { Module } from '../types';
 
 interface ModuleCardProps {

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Module } from '../types';
 import { X, Copy, Info } from 'lucide-react';
 import { modulePrompts } from '../data/prompts';

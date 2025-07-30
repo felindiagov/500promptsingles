@@ -8,12 +8,9 @@ function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
 
   const handleLogin = (email: string, password: string) => {
-    // Simple authentication - password is "acesso123"
-    if (password === 'acesso123') {
-      setIsAuthenticated(true);
-      return true;
-    }
-    return false;
+    // Always allow access
+    setIsAuthenticated(true);
+    return true;
   };
 
   const handleLogout = () => {
